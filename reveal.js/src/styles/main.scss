@@ -1,0 +1,26 @@
+.slides:nth-child(odd) {
+  h2,
+  h3 {
+    color: #04393a !important;
+  }
+
+  pre {
+    background-color: #e3e7ed;
+    color: #04393a;
+    font-size: 25px;
+  }
+}
+
+.slides:nth-child(even):not(.slides:first-child) {
+  h2 {
+    color: #04393a !important;
+  }
+}
+
+span {
+  color: #5553eb;
+}
+
+.list-items {
+  font-size: 32px !important;
+}
